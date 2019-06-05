@@ -4,10 +4,12 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/Hero"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Hero />
     <h1>Public Space Travel</h1>
 
     <h2>What The—?</h2>
@@ -47,7 +49,7 @@ const IndexPage = () => (
     </p>
     <p>
       Mar(x) aka Shadow Producer (@PSTinTheShadows): A student of the 1s and 2s;
-      a scholar of the wheels of steel. Combining leftist social and political
+      a scholar of the wheels of steel. Combining leftist social and apolitical
       ideology and an interest in audio engineering to produce this pod.{" "}
     </p>
     <p>
