@@ -8,11 +8,10 @@ import Hero from "../components/Hero"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
     <Hero />
-    <h1>Public Space Travel</h1>
+    <SEO title="Home" />
 
-    <h2>What The—?</h2>
+    <h2 style={{ paddingTop: `2rem` }}>What The—?</h2>
     <p>
       Public Space Travel is a podcast dedicated to intersectional
       social/political critique, cultural studies, comedy, and education.
@@ -36,34 +35,57 @@ const IndexPage = () => (
       and non-binary folk of all stripes.
     </p>
 
-    <h2>Who the—?</h2>
+    <h2 style={{ paddingTop: `2rem` }}>Who the—?</h2>
     <p>
-      Lazarus Wolf (@PSTLazarus): A PhD student and Anarchx-adjunct professor,
-      trained in philosophy but agrees that "Philosophers have hitherto only
-      interpreted the world in various ways; the point is to change it."
+      Lazarus Wolf (
+      <a href="https://twitter.com/PSTLazarus" target="_blank">
+        @PSTLazarus
+      </a>
+      ): A PhD student and Anarchx-adjunct professor, trained in philosophy but
+      agrees that "Philosophers have hitherto only interpreted the world in
+      various ways; the point is to change it."
     </p>
     <p>
-      Luci (@PSTLuci): An anarchist philosophically and a communist politically.
-      Voted most likely to watch the world burn. Has a background in music and
-      web development. Lurker 4 lyfe.
+      Luci (
+      <a href="https://twitter.com/PSTLuci" target="_blank">
+        @PSTLuci
+      </a>
+      ): An anarchist philosophically and a communist politically. Voted most
+      likely to watch the world burn. Has a background in music and web
+      development. Lurker 4 lyfe.
     </p>
     <p>
-      Mar(x) aka Shadow Producer (@PSTinTheShadows): A student of the 1s and 2s;
-      a scholar of the wheels of steel. Combining leftist social and apolitical
-      ideology and an interest in audio engineering to produce this pod.{" "}
+      Mar(x) aka Shadow Producer (
+      <a href="https://twitter.com/PSTinTheShadows" target="_blank">
+        @PSTinTheShadows
+      </a>
+      ): A student of the 1s and 2s; a scholar of the wheels of steel. Combining
+      leftist social and apolitical ideology and an interest in audio
+      engineering to produce this pod.{" "}
     </p>
     <p>
-      Hunty (@PSTHunty): An advocate for social justice, equity, and revolution
-      as necessary.
+      Hunty (
+      <a href="https://twitter.com/PSTHunty" target="_blank">
+        @PSTHunty
+      </a>
+      ): An advocate for social justice, equity, and revolution as necessary.
     </p>
 
-    <h2>How the—?</h2>
+    <h2 style={{ paddingTop: `2rem` }}>How the—?</h2>
     <p>
-      Listen on major podcast/music sites e.g. itunes, spotify, or here:
-      https://anchor.fm/public-space-travel{" "}
+      Listen on major podcast/music sites e.g. itunes, spotify, or{" "}
+      <a href="https://anchor.fm/public-space-travel" target="_blank">
+        here
+      </a>
+      .
     </p>
-    <p>Leave us Voicemails: (208) 502-1406</p>
-    <p>Write us Emails: PublicSpaceTravel@gmail.com</p>
+    <p>
+      Write to us:
+      <a href="PublicSpaceTravel@gmail.com">PublicSpaceTravel@gmail.com</a>
+    </p>
+    <p>
+      Leave us a voicemail: <a href="tel:+12085021406">(208) 502-1406</a>
+    </p>
   </Layout>
 )
 
