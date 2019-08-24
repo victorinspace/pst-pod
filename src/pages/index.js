@@ -12,6 +12,28 @@ const IndexPage = () => (
     <Layout>
       <SEO title="Home" />
 
+      <div>
+        <script
+          async
+          src="https://c6.patreon.com/becomePatronButton.bundle.js%22%3E"
+        />
+        <iframe
+          src="https://anchor.fm/public-space-travel/embed"
+          height="102px"
+          width="400px"
+          frameborder="0"
+          scrolling="no"
+        />
+      </div>
+      <div>
+        <a
+          href="https://www.patreon.com/bePatron?u=9546637"
+          data-patreon-widget-type="become-patron-button"
+        >
+          Become a Patron!
+        </a>
+      </div>
+
       <h2 style={{ paddingTop: `2rem` }}>What The—?</h2>
       <p>
         Public Space Travel is a podcast dedicated to intersectional
