@@ -32,13 +32,24 @@ const Layout = ({ children }) => (
             maxWidth: 960,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            backgroundColor: `#110700`,
+            color: `#b9b19a`,
           }}
         >
           <main>{children}</main>
-          <footer>
-            ©2019 - {new Date().getFullYear()} | Made by
-            {` `}
-            <a href="https://twitter.com/victorinspace">Victor</a>
+          <footer
+            style={{
+              fontStyle: `italic`,
+              color: `#5f4727`
+            }}
+          >
+            ©2019 - {new Date().getFullYear()} Public Space Travel Podcast | {` `} Header image from 
+            <a 
+              style={{
+                color: `#e69d3d`,
+                textDecoration: `none`
+              }} 
+              target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@pawelj"> Pawel Janiak</a>
           </footer>
         </div>
       </>
