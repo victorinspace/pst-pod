@@ -7,7 +7,8 @@ import SEO from "../components/seo"
 import Hero from "../components/Hero"
 
 const Section = styled.div`
-  padding: 10px 0;
+  padding-top: 2.5em;
+  padding-bottom: 3rem;
 `
 const BasicLink = styled.a`
   color: #e69d3d;
@@ -41,6 +42,9 @@ const IndexPage = () => (
             frameborder="0"
             scrolling="no"
             title="Public Space Travel Patreon"
+            style={{
+              marginBottom: `0`
+            }}
           />
         </div>
       </div>
@@ -48,7 +52,7 @@ const IndexPage = () => (
       {/* Patreon Link */}
       <div
         style={{
-          padding: `2em 0 1em`
+          padding: `0 0 1em`
         }}
       >
         <BasicLink
@@ -63,16 +67,11 @@ const IndexPage = () => (
             backgroundColor: `#e69d3d`
           }}
         >
-          Buy us a coffee ☕?
+          Buy us a coffee <span role="img" aria-label="coffee">☕</span>?
         </BasicLink>
       </div>
 
-      <Section
-        style={{
-          paddingTop: `2.5em`,
-          paddingBottom: `3rem`
-        }}
-      >
+      <Section>
         <p>
         Public Space Travel is a leftist anti-capitalist podcast of disgruntled academics, video gamers, and friends. Our belief is that knowledge should be made more accessible, and be used for anti-oppression and non-hierarchical revolutionary ends.
         </p>

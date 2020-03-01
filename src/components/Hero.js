@@ -9,17 +9,16 @@ const Hero = () => (
       color="#000"
       opacity="0.3"
       parallaxOffset="100"
-      minHeight="75vh"
+      minHeight="55vh"
     >
       <h1
         style={{
-          fontSize: `8em`,
+          fontSize: `6.88em`,
           fontStyle: `italic`,
           color: `#eee`,
           fontFamily: `Prata`,
-          padding: `5rem`,
-          lineHeight: `1.23`,
-          
+          padding: `5rem 0`,
+          lineHeight: `1.25`,
         }}
       >
         Public Space Travel
