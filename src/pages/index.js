@@ -18,7 +18,6 @@ const IndexPage = () => (
   <div
     style={{
       backgroundColor: `#110700`
-      
     }}
   >
     <Hero />
